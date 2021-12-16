@@ -1,0 +1,264 @@
+<html>
+<head>
+     <title>College Website</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <style>
+ body{
+ 	margin:0;
+ 	font-family: sans-serif;
+ }
+
+ *{
+ 	box-sizing: border-box;
+ }
+
+ .header{
+ 	width: 100%;
+ 	float: left;
+ }
+ .header img{
+ 	width: 100%;
+ }
+
+ .content-wrapper{
+ 	background-color:#e5e5e5;
+ 	width: 100%;
+ 	float: left;
+ 	padding:30px;
+ }
+
+ .content-wrapper .container{
+ 	width: 100%;
+ 	float: left;
+ 	border:1px solid #c5c4c4;
+ 	background-color:#f9f9f9;
+ 	border-radius:5px;
+ }
+
+.content-wrapper .nav{
+	width: 20%;
+	float:left;
+	padding:20px;
+	border-radius:5px 0px 0px 5px;
+}
+
+.content-wrapper .nav a{
+	
+	background-color:#047dc3;
+	border-radius:4px;
+	text-decoration:none;
+	display: block;
+	text-align: center;
+	padding:12px 15px;
+	color:#ffffff;
+	margin-bottom: 10px;
+}
+
+.content-wrapper .nav a.active{
+	color:#000000;
+	background-color: #fbaeae;
+	border:1px solid #cc6868;
+}
+.content-wrapper .content{
+	float: left;
+	width: 80%;
+	background-color: #ffffff;
+   padding:20px;
+   padding-bottom:50px;
+   border-left:1px solid #c5c4c4;
+   border-radius:0px 5px 5px 0px;
+   min-height: 600px;
+}
+
+
+.content-wrapper .content .heading{
+	background-color:#ffb2b2;
+	font-size: 25px;
+	padding:10px 15px;
+     margin:0px 0px 10px;
+     border-radius: 4px;
+     border:1px solid #cc6868;
+}
+
+.content-wrapper .content p{
+	font-size: 16px;
+	color:#000001;
+	line-height: 24px;
+	margin:0px 0px 15px;
+}
+
+.content-wrapper .content .products .box{
+	width:calc(33.33% - 30px);
+	float: left;
+	box-shadow: 0px 0px 10px #cdcdcd;
+	height: 350px;
+	margin:15px;
+	border-radius:4px;
+	position: relative;
+}
+
+
+.content-wrapper .content .products .box img{
+	max-width: 100%;
+	max-height: 100%;
+	padding:20px;
+    width:auto;
+    height: auto;
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    z-index:1;
+}
+
+
+.footer{
+	background-color:#047dc3;
+	padding:50px 30px;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.footer h5{
+  color:#d8d8d8;
+  font-size:16px;
+  margin:0px;
+  font-family: comic sans ms;
+}
+
+
+.footer p{
+ color:#ffffff;
+ margin:10px 0;      
+}
+
+
+ @media(max-width: 991px){
+
+ 	.content-wrapper .content .products .box{
+ 		height: 280px;
+ 	}
+ 	.content-wrapper .content .feedback-form form {
+    width: 70%;
+}
+ }
+
+
+ @media(max-width: 767px){
+
+ 	.content-wrapper .nav{
+ 		width: 100%;
+ 	}
+ 	.content-wrapper .content{
+ 		width: 100%;
+ 		border-radius:0px 0px 5px 5px
+ 	}
+ 	.content-wrapper .content .products .box{
+ 		width: 100%;
+ 		margin:15px 0px;
+ 	}
+ 	.content-wrapper .content .feedback-form form {
+    width: 100%;
+}
+ }
+
+
+@media(max-width: 500px){
+ .content-wrapper .content .feedback-form form .row .label{
+ 	width: 100%;
+ }
+ .content-wrapper .content .feedback-form form .row .input{
+ 	width: 100%;
+ }
+}
+element.style {
+    background: blanchedalmond;
+}
+
+	 </style>
+</head>
+<body>
+
+
+  <div class="header">
+  	 <img src="images/anjac.jpg" alt="header" width="100%" height="300">
+  </div>
+ 
+
+ 
+  <div class="content-wrapper">
+  	<div class="container">
+  		
+  		<div class="nav">
+  			<a href="Home.html" class="active">Home</a>
+  		</div>
+  	
+        
+      
+        <div class="content">
+        	<h2 class="heading">Ayya Nadar Janaki Ammal College </h2>
+			<h3>About Us:</h3>
+        	<p>The<strong> Ayya Nadar Janaki Ammal College </strong>established in <strong>1963 </strong>is a standing testimony to the wisdom and farsighted of The Legendary of Humanitarianism Thiru. P. Ayya Nadar, a farsighted industrial architect of Sivakasi town and renowned academician and his equally generous wife Thirumathi A. Janaki Ammal, caters the need of rural sector for higher education. As this Institution was established by their Munificence, the College was fittingly named after them. Discipline and Academic Excellence are Hall Mark of this Institution.
+
+</p>
+            <br/>
+
+            		 <h3>Faculty Details</h3>
+					             	<img src="images/faculty.jpg" />
+			
+            <h2 class="heading">Activity</h2>
+
+            <div class="products">
+            	<div class="box">
+            		<img src="images/conference.jpg" alt="product" />
+            		 <h5>National Conference-2018</h5>
+            		
+            	</div>
+            	<div class="box">
+            		<img src="images/maths.jpg" alt="product" />
+            	    <h5>National Mathematics Day (131st Srinivasa Ramanujan’s Birthday)</h5>
+            		
+            	</div>
+            	<div class="box">
+            		<img src="images/trends.jpg" alt="product" />
+            		<h5>Emerging Trends in Topology and Geometry, 15 and 16 February 2019</h5>
+            		
+            	</div>
+				<div class="box">
+            		<img src="images/association.jpg" alt="product" />
+            		 <h5>Qmaze 2018</h5>
+            		
+            	</div>
+            	<div class="box">
+            		<img src="images/camp1.jpg" alt="product" />
+            	    <h5>Entrepreneurship Awareness Camp</h5>
+            		
+            	</div>
+            	<div class="box">
+            		<img src="images/guest1.jpg" alt="product" />
+            		<h5>Guest Lecture</h5>
+            		
+            	</div>
+            </div>
+        </div>
+      
+  	</div>
+  </div>
+
+
+ <div class="footer">
+ 	<h5>AYYA NADAR JANAKI AMMAL COLLEGE,
+Sivakasi,
+Srivilliputhur Main Road,
+Sivakasi - 626124, Tamilnadu,</h5>
+ 	<h6> Email:support_anjac@anjaconline.org, principal@anjaconline.org
+   Mobile :04562-254100
+ Fax : 04562-254970</h6>
+ </div>
+
+</body>
+</html>
